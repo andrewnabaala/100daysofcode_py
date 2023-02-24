@@ -10,15 +10,15 @@ print(f"Computer choses {computer_choice}")
 
 if choice == computer_choice:
     print("Draw")
-elif choice == 1 & computer_choice == 2:
+elif choice == 1 and computer_choice == 2:
     print("Computer wins")
-elif choice == 1 & computer_choice == 3:
+elif choice == 1 and computer_choice == 3:
     print("You win")
-elif choice == 2 & computer_choice == 1:
+elif choice == 2 and computer_choice == 1:
     print("You win")
-elif choice == 2 & computer_choice == 3:
+elif choice == 2 and computer_choice == 3:
     print("Computer wins")
-elif choice == 3 & computer_choice == 1:
+elif choice == 3 and computer_choice == 1:
     print("Computer wins")
 else:
     print("You win")
